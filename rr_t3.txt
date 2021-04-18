@@ -1,0 +1,156 @@
+******************************************************************************************
+Author: John Huynh
+Date: March 3, 2020
+Class: Operating Systems CS 405
+Description: Round Robin (TQ = 3) test data
+******************************************************************************************
+
+********************************************************
+1 = Shortest Job First (SJF)
+2 = Round Robin (RR)
+3 = Exit
+********************************************************
+Enter: 2
+Enter a Time Quantum value: 3
+Timer: 0
+    CPU:          1
+    Job Queue:    4 5 
+    Ready Queue:  2 3 
+    Disk Queue:   
+    IOW Queue:    
+
+Timer: 3
+    CPU:          2
+    Job Queue:    4 5 
+    Ready Queue:  3 1 
+    Disk Queue:   
+    IOW Queue:    
+
+Timer: 6
+    CPU:          3
+    Job Queue:    5 
+    Ready Queue:  1 4 
+    Disk Queue:   2 
+    IOW Queue:    
+
+Timer: 8
+    CPU:          1
+    Job Queue:    5 
+    Ready Queue:  4 2 
+    Disk Queue:   3 
+    IOW Queue:    
+
+Timer: 10
+    CPU:          4
+    Job Queue:    
+    Ready Queue:  2 5 
+    Disk Queue:   3 1 
+    IOW Queue:    
+
+Timer: 13
+    CPU:          2
+    Job Queue:    
+    Ready Queue:  5 1 
+    Disk Queue:   3 4 
+    IOW Queue:    
+
+Timer: 15
+    CPU:          5
+    Job Queue:    
+    Ready Queue:  1 3 
+    Disk Queue:   4 2 
+    IOW Queue:    
+
+Timer: 18
+    CPU:          1
+    Job Queue:    
+    Ready Queue:  3 5 
+    Disk Queue:   
+    IOW Queue:    2 4 
+
+Timer: 21
+    CPU:          3
+    Job Queue:    
+    Ready Queue:  5 1 
+    Disk Queue:   
+    IOW Queue:    2 4 
+
+Timer: 23
+    CPU:          5
+    Job Queue:    
+    Ready Queue:  1 2 
+    Disk Queue:   3 
+    IOW Queue:    4 
+
+Timer: 26
+    CPU:          1
+    Job Queue:    
+    Ready Queue:  2 4 
+    Disk Queue:   3 5 
+    IOW Queue:    
+
+Timer: 29
+    CPU:          2
+    Job Queue:    
+    Ready Queue:  4 3 
+    Disk Queue:   5 1 
+    IOW Queue:    
+
+Timer: 32
+    CPU:          4
+    Job Queue:    
+    Ready Queue:  3 2 
+    Disk Queue:   1 
+    IOW Queue:    5 
+
+Timer: 34
+    CPU:          3
+    Job Queue:    
+    Ready Queue:  2 5 
+    Disk Queue:   
+    IOW Queue:    1 
+
+Timer: 36
+    CPU:          2
+    Job Queue:    
+    Ready Queue:  5 1 
+    Disk Queue:   
+    IOW Queue:    
+
+Timer: 37
+    CPU:          5
+    Job Queue:    
+    Ready Queue:  1 
+    Disk Queue:   2 
+    IOW Queue:    
+
+Timer: 40
+    CPU:          1
+    Job Queue:    
+    Ready Queue:  5 2 
+    Disk Queue:   
+    IOW Queue:    
+
+Timer: 43
+    CPU:          5
+    Job Queue:    
+    Ready Queue:  2 
+    Disk Queue:   
+    IOW Queue:    
+
+Timer: 46
+    CPU:          2
+    Job Queue:    
+    Ready Queue:  
+    Disk Queue:   
+    IOW Queue:    
+
+Timer: 49
+    CPU:          
+    Job Queue:    
+    Ready Queue:  
+    Disk Queue:   
+    IOW Queue:    
+
+
+Process finished with exit code 0
